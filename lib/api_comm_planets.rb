@@ -38,8 +38,8 @@ def get_planet_films(films_array)
   end
 end
 
-def get_planet_info(planet)
-  get_planets_from_api.map do |p_hash|
+def display_planet_info(planet)
+  get_planets_from_api.each do |p_hash|
     if p_hash["name"].downcase.include?(planet.downcase)
       puts "Planet Name: #{p_hash["name"]}"
       puts "Rotation Period: #{p_hash["rotation_period"]}"
@@ -49,7 +49,7 @@ def get_planet_info(planet)
       puts "Films: #{get_planet_films(p_hash["films"]).join(", ")}"
     end
   end
-  return "Hope that’s helpful!"
+  # return "Hope that’s helpful!"
 end
 
-binding.pry
+# binding.pry
