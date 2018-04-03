@@ -28,4 +28,4 @@ def display_movie_info(movie)
   # return "Hope that’s helpful!"
 end
 
-binding.pry
+# binding.pry
