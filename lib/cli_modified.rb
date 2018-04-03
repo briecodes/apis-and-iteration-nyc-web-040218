@@ -30,7 +30,7 @@ def find_user_intention
 end
 
 def user_input_search(user_input)
-  character = get_character_info_from_api(user_input)
+  character = get_char_info(user_input)
   movie = display_movie_info(user_input)
   planet = display_planet_info(user_input)
   if character
