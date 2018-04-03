@@ -3,7 +3,7 @@
 require_relative "../lib/api_communicator.rb"
 # require_relative "../lib/command_line_interface.rb"
 require_relative "../lib/cli_modified.rb"
-# require_relative "../lib/api_comm_chars.rb"
+require_relative "../lib/api_comm_chars.rb"
 require_relative "../lib/api_comm_movies.rb"
 require_relative "../lib/api_comm_planets.rb"
 

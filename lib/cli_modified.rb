@@ -4,8 +4,7 @@ def welcome
 end
 
 def main_menu_info
-  puts "Enter CHARACTERS, PLANETS, or MOVIES to view a list, \n
-  or enter a search keyword:"
+  puts "Enter CHARACTERS, PLANETS, or MOVIES to view a list, or enter a search keyword:"
 end
 
 def find_user_intention
